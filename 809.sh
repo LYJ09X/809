@@ -1,5 +1,5 @@
-read -p "请输入x-ui的IP: " spip
-read -p "请输入x-ui的端口: " spport
+read -p "请输入节点的IP: " spip
+read -p "请输入节点的端口: " spport
 fakeid=$(echo $RANDOM | md5sum | cut -c 1-22)
 md5="3d99ff138e1f41e931e58617e7d128e2"
 spkey=$(echo -n "if5ax/?fakeid=$fakeid&spid=81117&pid=81117&spip=$spip&spport=$spport$md5" | md5sum | cut -d " " -f1)
