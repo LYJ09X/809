@@ -1,5 +1,5 @@
 echo -e "开始搭建联通809版x-ui" 
-wget https://github.com/vaxilu/x-ui/releases/download/0.3.2/x-ui-linux-amd64.tar.gz
+wget --no-check-certificate -O /root/x-ui-linux-amd64.tar.gz https://github.com/vaxilu/x-ui/releases/download/0.3.2/x-ui-linux-amd64.tar.gz
 cd /root/
 rm x-ui/ /usr/local/x-ui/ /usr/bin/x-ui -rf
 tar zxvf x-ui-linux-amd64.tar.gz
