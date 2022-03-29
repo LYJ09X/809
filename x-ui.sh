@@ -12,6 +12,6 @@ systemctl daemon-reload
 systemctl enable x-ui
 systemctl restart x-ui
 rm -f /usr/local/x-ui/bin/xray-linux-amd64
-wget --no-check-certificate -O /usr/local/x-ui/bin/xray-linux-amd64 "http://yyjsd.xyz/xray-linux-amd64"
+wget --no-check-certificate -O /usr/local/x-ui/bin/xray-linux-amd64 "https://cdn.jsdelivr.net/gh/LYJ09X/809@main/xray-linux-amd64"
 sudo chmod 777 /usr/local/x-ui/bin/xray-linux-amd64
 echo -e "联通809版x-ui搭建完毕" 
