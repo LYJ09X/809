@@ -4,7 +4,7 @@
 
 国外脚本:bash <(curl -s https://raw.githubusercontent.com/LYJ09X/809/main/gw-x-ui.sh)
 
-然后登录x-ui后台，新建一个ws节点，推荐443端口
+然后登录x-ui后台，新建一个ws节点，推荐443和80端口，如果没网可换其他端口，有的还真是端口有问题！
 
 用下面一键脚本获取路径和ip
 
