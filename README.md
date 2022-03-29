@@ -1,14 +1,10 @@
-
-
-连接SSH以后请先搭建联通809版x-ui
-
+第一步也是最重要的连接SSH以后请先搭建联通809版x-ui
 
 bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/x-ui.sh)
 
 然后登录x-ui后台，新建一个ws节点，推荐443端口
 
 用下面一键脚本获取路径和ip
-
 
 bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/809.sh)
 
