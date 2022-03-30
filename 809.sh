@@ -6,8 +6,6 @@ spkey=$(echo -n "if5ax/?fakeid=$fakeid&spid=81117&pid=81117&spip=$spip&spport=$s
 url=$(curl -s -X GET -H "Host:dir.wo186.tv:809" -H "User-Agent:Mozilla/5.0 (Linux; Android 11; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36" "http://dir.wo186.tv:809/if5ax/?fakeid=$fakeid&spid=81117&pid=81117&spip=$spip&spport=$spport&spkey=$spkey" | grep -o "url.*" | cut -d '"' -f3 | sed 's/\\//g')
 host=$(echo $url | cut -d "/" -f3)
 path=$(echo $url | grep -o "/if5ax.*")
-echo "修改代理应用
-ip与host改为 $(echo $host | cut -d ":" -f1)
-端口为 $(echo $host | cut -d ":" -f2)
-path改为
-$path"
+echo "IP与host: $(echo $host | cut -d ":" -f1)
+端口: $(echo $host | cut -d ":" -f2)
+Path: $path"
