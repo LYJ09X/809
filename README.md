@@ -2,19 +2,15 @@
 
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
 
-搭建809版本X-UI
+使用下面脚本一键搭建809版本X-UI
 
 国内脚本:bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/x-ui.sh)
 
 国外脚本:bash <(curl -s https://raw.githubusercontent.com/LYJ09X/809/main/gw-x-ui.sh)
 
-然后登录x-ui后台，新建一个ws节点，推荐443和80端口，如果没网可换其他端口，有的还真是端口有问题！
-
-不会有菜鸡还傻傻的去改X-UI里的东西吧，建好节点别动，直接去改代理软件填入信息！
+登录x-ui后台，新建一个443端口的ws节点！不会有菜鸡还傻傻的去改X-UI里的东西吧！
 
 关于809自动更新我借鉴各位大佬的方法写了一下脚本
-
-部署自动更新脚本如下
 
 国内脚本:bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/zd809.sh)
 
