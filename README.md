@@ -6,7 +6,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 国内脚本:bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/gn-x-ui.sh)
 
-国外脚本:bash <(curl -s https://raw.githubusercontent.com/LYJ09X/809/main/gwx-ui.sh)
+国外脚本:bash <(curl -s https://raw.githubusercontent.com/LYJ09X/809/main/gw-x-ui.sh)
 
 登录x-ui后台，新建一个443端口的ws节点！不会有菜鸡还傻傻的去改X-UI里的东西吧！
 
