@@ -1,3 +1,5 @@
+最后更改时间为:2022/3月31号/19点43  为什么用不了呢，因为国内CDN有延迟我也没办法！
+
 搭建宝塔面板，进去以后只装一个nginx其他不要装，宝塔面板点安全，放行54321和443端口
 
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
