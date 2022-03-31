@@ -1,5 +1,3 @@
-最后更改时间为:2022/3月31号/19点43  为什么用不了呢，因为国内CDN有延迟我也没办法！
-
 搭建宝塔面板，进去以后只装一个nginx其他不要装，宝塔面板点安全，放行54321和443端口
 
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
@@ -8,13 +6,13 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 国内脚本:bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/x-ui.sh)
 
-国外脚本:bash <(curl -s https://raw.githubusercontent.com/LYJ09X/809/main/gw-x-ui.sh)
+国外脚本:bash <(curl -s https://gitee.com/lyj09x/lt809ml/raw/master/x-ui.sh)
 
 登录x-ui后台，新建一个443端口的ws节点！不会有菜鸡还傻傻的去改X-UI里的东西吧！
 
 关于809自动更新我借鉴各位大佬的方法写了一下脚本
 
-国内脚本:bash <(curl -s https://cdn.jsdelivr.net/gh/LYJ09X/809@main/809ml.sh)
+国内脚本:bash <(curl -s https://gitee.com/lyj09x/lt809ml/raw/master/809ml.sh)
 
 国外脚本:bash <(curl -s https://raw.githubusercontent.com/LYJ09X/809/main/gw-809ml.sh)
 
