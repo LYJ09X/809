@@ -1,4 +1,4 @@
-搭建宝塔面板，进去以后只装一个nginx其他不要装，x-ui的ws节点端口用443，宝塔面板点安全，放行54321和443端口
+搭建宝塔面板，进去以后只装一个nginx其他不要装，宝塔面板点安全，放行54321和443端口
 
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
 
